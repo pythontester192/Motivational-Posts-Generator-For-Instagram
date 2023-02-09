@@ -59,7 +59,7 @@ Suppose we want to overlay the first quote in the text file with the first raw i
 To do this, we ould run the script and specify that we do not wish to generate all combinations of the raw images and lines of text. 
 
 ~~~
-evmarts$ python overlayer.py
+python post_generator.py
 Generate all combinations? (y/n): n
 Include trademark/logo? (y/n): y
 Overlaying bkg0.jpg...
@@ -83,7 +83,7 @@ Consider the same text file and the same three images as above. Perhaps we just 
 Here, we will overlay each quote with each raw image in order to create all combinations of pairings. 
 
 ~~~
-evmarts$ python overlayer.py
+python post_generator.py
 Generate all combinations? (y/n): y
 Include trademark/logo? (y/n): y
 Overlaying bkg0.jpg...
