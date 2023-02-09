@@ -41,7 +41,7 @@ Python
 
 Consider the following raw images located in the ```in/bkg``` directory: 
 
-<img src="./in/bkg0.jpg" width="200x" alt=""> <img src="./in/bkg1.jpg" width="200x" alt=""> <img src="./in/bkg2.jpg" width="200x" alt=""> 
+<img src="./in/raw/bkg0.jpg" width="200x" alt=""> <img src="./in/raw/bkg1.jpg" width="200x" alt=""> <img src="./in/raw/bkg2.jpg" width="200x" alt=""> 
 
 and consider the following text file located in the ```/in``` directory:
 
