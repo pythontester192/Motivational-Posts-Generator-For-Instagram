@@ -16,17 +16,17 @@ However, beyond the formatting, the recipe for these images is simple, it includ
  
 So one may see that it can be very beneficial yet straightforward to automate the process.
 
-Below is a screenshot from one of my Instagram accounts geared at promoting personal motivation and fitness. Notice the identical formatting of the images, very automatable!
+Below is a screenshot from my Instagram accounts geared at promoting personal motivations for programmers. Notice the identical formatting of the images, very automatable!
 
 <img src="./figures/sample_feed.jpg" width="512x" alt="">
 
 ## Getting Started
 
 Clone:
-```git clone https://github.com/evmarts/overlayer.git```
+```git clone https://github.com/pythontester192/Motivational-Posts-Generator-For-Instagram.git```
 
 Run the script:
-```python overlayer.py```
+```python post_generator.py```
 
 ### Prerequisites
 
@@ -41,7 +41,7 @@ Python
 
 Consider the following raw images located in the ```in/bkg``` directory: 
 
-<img src="./figures/fig5.jpg" width="200x" alt=""> <img src="./figures/fig3.jpg" width="200x" alt=""> <img src="./figures/fig4.jpg" width="200x" alt=""> 
+<img src="./in/bkg0.jpg" width="200x" alt=""> <img src="./in/bkg1.jpg" width="200x" alt=""> <img src="./in/bkg2.jpg" width="200x" alt=""> 
 
 and consider the following text file located in the ```/in``` directory:
 
@@ -72,9 +72,9 @@ Output image saved as: out/_Third capt.png
 
 The following images are then stored in the ```/out``` directory:
 
- <img src="./figures/fig5_capped.png" width="220x" alt="">  <img src="./figures/fig3_capped.png" width="220x" alt=""> <img src="./figures/fig4_capped.png" width="220x" alt="">
+ <img src="./figures/0_First capt.png" width="220x" alt="">  <img src="./figures/1_Second cap.png" width="220x" alt=""> <img src="./figures/2_Third capt.png" width="220x" alt="">
  
-**note**: We chose to include the trademarks in these images.   An image file, ```logo.png```, in the ```/utils``` directory specifies the logo, and the trademark text (the text below the logo) is specified in the ```overlayer.py``` script.
+**note**: We chose to include the trademarks in these images.   An image file, ```logopy.png```, in the ```/utils``` directory specifies the logo, and the trademark text (the text below the logo) is specified in the ```post_generator.py``` script.
 
 #### Example 2 - generating all combinations of overlays:
 
@@ -108,8 +108,8 @@ Output image saved as: out/2_Third capt.png
 
 The following images are then stored in the ```/out``` directory:
  
-<img src="./figures/fig12_capped.png" width="220x" alt=""> <img src="./figures/fig8_capped.png" width="220x" alt=""> <img src="./figures/fig10_capped.png" width="220x" alt="">
+<img src="./figures/0_First capt.png" width="220x" alt=""> <img src="./figures/0_Second capt.png" width="220x" alt=""> <img src="./figures/0_Third capt.png" width="220x" alt="">
 
-<img src="./figures/fig6_capped.png" width="220x" alt=""> <img src="./figures/fig13_capped.png" width="220x" alt=""> <img src="./figures/fig11_capped.png" width="220x" alt="">
+<img src="./figures/1_First capt.png" width="220x" alt=""> <img src="./figures/1_Second capt.png" width="220x" alt=""> <img src="./figures/1_Third capt.png" width="220x" alt="">
  
-<img src="./figures/fig7_capped.png" width="220x" alt=""> <img src="./figures/fig9_capped.png" width="220x" alt=""> <img src="./figures/fig14_capped.png" width="220x" alt="">
+<img src="./figures/2_First capt.png" width="220x" alt=""> <img src="./figures/2_Second capt.png" width="220x" alt=""> <img src="./figures/2_Third capt.png" width="220x" alt="">
