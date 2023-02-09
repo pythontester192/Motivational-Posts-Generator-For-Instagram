@@ -85,7 +85,7 @@ Here, we will overlay each quote with each raw image in order to create all comb
 ~~~
 evmarts$ python overlayer.py
 Generate all combinations? (y/n): y
-Include trademark/logo? (y/n): n
+Include trademark/logo? (y/n): y
 Overlaying bkg0.jpg...
 Output image saved as: out/0_First capt.png
 Overlaying bkg0.jpg...
@@ -108,8 +108,8 @@ Output image saved as: out/2_Third capt.png
 
 The following images are then stored in the ```/out``` directory:
  
-<img src="./figures/0_First capt.png" width="220x" alt=""> <img src="./figures/0_Second capt.png" width="220x" alt=""> <img src="./figures/0_Third capt.png" width="220x" alt="">
+<img src="./figures/0_First capt.png" width="220x" alt=""> <img src="./figures/0_Second cap.png" width="220x" alt=""> <img src="./figures/0_Third capt.png" width="220x" alt="">
 
-<img src="./figures/1_First capt.png" width="220x" alt=""> <img src="./figures/1_Second capt.png" width="220x" alt=""> <img src="./figures/1_Third capt.png" width="220x" alt="">
+<img src="./figures/1_First capt.png" width="220x" alt=""> <img src="./figures/1_Second cap.png" width="220x" alt=""> <img src="./figures/1_Third capt.png" width="220x" alt="">
  
-<img src="./figures/2_First capt.png" width="220x" alt=""> <img src="./figures/2_Second capt.png" width="220x" alt=""> <img src="./figures/2_Third capt.png" width="220x" alt="">
+<img src="./figures/2_First capt.png" width="220x" alt=""> <img src="./figures/2_Second cap.png" width="220x" alt=""> <img src="./figures/2_Third capt.png" width="220x" alt="">
